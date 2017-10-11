@@ -1,0 +1,164 @@
+/* Body of website */
+body *
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Tag redesigns */
+a, a:link, a:visited, a:active { text-decoration : none !important; }
+a:hover { text-decoration : none !important; font-weight : 500 !important; }
+h1 { font-weight : 700 !important; font-size : 55px !important;}
+h2 { font-weight : 400 !important; }
+h3 { font-weight : 300 !important; }
+h4 { font-weight : 400 !important; }
+p  { color: #5F6267 !important; font-weight : 300 !important; font-size : 20px; }
+
+/* Link colous depending on the section they are in */
+.btn-pink
+{
+  border-radius : 50px !important;
+  font-size : 13px !important;
+  padding : 12px !important;
+  width: 100px;
+  color : #FFFFFF !important;
+  background-color : #FF6669;
+
+  /* Transitions */
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration : 0.4s;
+  -webkit-transition-duration : 0.4s;
+  transition-duration: 0.4s;
+
+}
+
+.btn-pink:hover
+{
+  background-color : #FF797C; 
+}
+
+/* Pink links */
+.pink-link
+{
+  color : #FF6669 !important;
+}
+
+/* Button divider */
+.divider
+{
+   width : 75px;
+   height : auto;
+   display : inline-block;
+}
+
+/* Title font for headers */
+.head-color
+{
+  color : #5F6267 !important;
+}
+
+/* Section wraps */
+.wrapper
+{
+	height : 100%;
+	padding : 50px;
+  vertical-align : middle;
+	text-align : center;
+  display : table-cell;
+}
+
+.sub_wrapper
+{
+  height : 100%;
+  padding : 50px;
+  text-align : center;
+  display : table-cell;
+}
+
+/* Custom hr tag */
+.pink-hr
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FF6669;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/* Full screen header section, tiled to fit a full laptop screen */
+.header-section
+{
+  width : 100%;
+  height : 100%;
+  padding : 50px 0;
+  display : table;
+  text-align : center;
+  /*background: #B2FEFA; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to left, #B2FEFA , #0ED2F7); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to left, #B2FEFA , #0ED2F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Sub header, this one has a gray background */
+.sub-section_gray
+{
+  width : 100%;
+  padding : 50px 0;
+  display : table;
+  text-align : center;
+  background-color : #FAFAFA;
+}
+
+/* Sub header, this one has a white background */
+.footer-section
+{
+  width: 100%;
+  display : table;
+  text-align : center;
+  background-color : #F0F0F0;
+}
+
+/* Cursor design, setting its animation */
+.typed-cursor
+{
+  opacity : 1;
+  -webkit-animation : blink 1s infinite;
+  -moz-animation : blink 1s infinite;
+  animation : blink 1s infinite;
+}
+
+/* Blinking animation for the text cursor */
+@keyframes blink
+{
+  0% { opacity : 1; }
+  50% { opacity : 0; }
+  100% { opacity : 1; }
+}
+
+@-webkit-keyframes blink
+{
+  0% { opacity : 1; }
+  50% { opacity : 0; }
+  100% { opacity : 1; }
+}
+
+@-moz-keyframes blink
+{
+  0% { opacity : 1; }
+  50% { opacity :0 ; }
+  100% { opacity : 1; }
+}
+
+/* Cloud image that will use float keyframe */
+#cloud
+{
+  animation: float 3s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Floating cloud animation */
+@keyframes float
+{
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(0px); }
+}
