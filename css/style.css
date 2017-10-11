@@ -112,6 +112,7 @@ p  { color: #5F6267 !important; font-weight : 300 !important; font-size : 20px; 
 .footer-section
 {
   width: 100%;
+  padding : 50px 0;
   display : table;
   text-align : center;
   background-color : #F0F0F0;
