@@ -2,51 +2,24 @@
 body *
 {
   font-family: 'Montserrat', sans-serif;
+  background-color: #6D23E2;
 }
 
 /* Tag redesigns */
-a, a:link, a:visited, a:active { text-decoration : none !important; }
-a:hover { text-decoration : none !important; font-weight : 500 !important; }
-h1 { font-weight : 700 !important; font-size : 35px !important;}
-h2 { font-weight : 400 !important; }
-h3 { font-weight : 300 !important; }
-h4 { font-weight : 400 !important; }
-p  { color: #5F6267 !important; font-weight : 300 !important; font-size : 10px; }
+a, a:link, a:visited, a:active { text-decoration : none !important; font-weight: 700 !important; color: white !important;}
+a:hover { text-decoration : none !important; color: lightgray !important;}
+h1 { font-size : 35px !important; color: white !important; font-weight : 700 !important;}
+h2, h3, h4 { color: white !important; }
+h5 { color: #310D68 !important ; }
+p  { color: white !important; font-weight : 700 !important; font-size : 9px; }
 
-/* Link colous depending on the section they are in */
-.btn-pink
-{
-  border-radius : 50px !important;
-  font-size : 13px !important;
-  padding : 12px !important;
-  width: 100px;
-  color : #FFFFFF !important;
-  background-color : #FF6669;
+/* Font weight */
+.boldy { font-weight: 800; }
+.mediumy { font-weight: 700; }
+.thiny { font-weight: 400; }
 
-  /* Transitions */
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration : 0.4s;
-  -webkit-transition-duration : 0.4s;
-  transition-duration: 0.4s;
-
-}
-
-.btn-pink:hover
-{
-  background-color : #FF797C; 
-}
-
-/* Pink links */
-.pink-link
-{
-  color : #FF6669 !important;
-}
-
-/* Title font for headers */
-.head-color
-{
-  color : #5F6267 !important;
-}
+/* Font colour */
+.white { color: white; }
 
 /* Section wraps */
 .wrapper
@@ -66,16 +39,13 @@ p  { color: #5F6267 !important; font-weight : 300 !important; font-size : 10px; 
   padding : 50px 0;
   display : table;
   text-align : center;
-  /*background: #B2FEFA; /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to left, #B2FEFA , #0ED2F7); /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to left, #B2FEFA , #0ED2F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* NAVBAR CHANGES */
-.navbar-default{
-  padding: 1.5rem 0;
-  background-color: white !important;
-  border-bottom: none !important;
+.navbar-default {
+  background-color: #6D23E2 !important;
+  border: none !important;
+  padding: 1.5rem;
 }
 
 .jumbotron {
@@ -85,4 +55,8 @@ p  { color: #5F6267 !important; font-weight : 300 !important; font-size : 10px; 
 
 .spacing {
   word-spacing: 15px;
+}
+
+.thumbnail {
+    border-radius: 0 !important;
 }
