@@ -1,16 +1,5 @@
 import React from 'react';
-import { 
-    Navbar, 
-    Nav, 
-    InputGroup, 
-    FormControl,
-    Button, 
-    Tabs, 
-    Tab,
-    Container, 
-    Row,
-    Col } from 'react-bootstrap';
-
+import { Navbar, Nav, InputGroup, FormControl, Button, Tabs,  Tab, Container, Row, Col } from 'react-bootstrap';
 import ResultLink from '../component/google/resultLink.jsx';
 import ProjectImage from '../component/google/projectImage.jsx';
 import ProjectDescription from '../component/google/projectDescription.jsx';
