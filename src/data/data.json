@@ -2,78 +2,66 @@
     "projects" : [
         {
             "id": 1,
-            "title": "Füd - What Is There To Eat Around Toronto?",
-            "description" : "Wanted to work with Zomato's API, decided to build this web app to looks for restaurants around the GTA based on key words or specific cuisines, what started off as a mobile app design, turned into a developed web app.",
-            "img_link": "fud",
-            "more_img_link": "fud-concept",
-            "sketch_link": "",
-            "work_link": "https://sanaknaki.github.io/fud/"
+            "title": "Habit: A Limited Social Network",
+            "description" : "Wanted to start developing iOS apps, went down the cliché path and attempted to make a social network with a twist, the twist being is if you don't use the app once a day, your account gets deleted.",
+            "img_link": "habit",
+            "sketch_link": "habit",
+            "work_link": "https://medium.com/@sanaknaki.ali/habit-a-limited-social-network-ad7fa3d44930",
+            "type": "ios"
         },
         {
             "id": 2,
-            "title": "NLIMDB - Natural Language to Movie Database",
-            "description" : "I designed and developed a web application that takes in 'Natural Language' queries and returns movies that fit the user search, along with their appropriate information. This project was done by myself and 2 others for our university honours project.",
-            "img_link": "nlimdb",
-            "more_img_link": "nlimdb-concept",
-            "sketch_link": "nlimdb",
-            "work_link": ""
+            "title": "Füd: What Is There To Eat Around Toronto?",
+            "description" : "Wanted to work with Zomato's API, decided to build this web app to looks for restaurants around the GTA based on key words or specific cuisines, what started off as a mobile app design, turned into a developed web app.",
+            "img_link": "fud",
+            "sketch_link": "",
+            "work_link": "https://sanaknaki.github.io/fud/",
+            "type": "web"
         },
         {
             "id": 3,
-            "title": "Brainfood - Mobile App Concept",
-            "description" : "I helped my friends for their capstone project for university by designing the mobile application to a meal planner / recommender.",
-            "img_link": "brainfood",
-            "more_img_link": "brainfood-concept",
-            "sketch_link": "brainfood",
-            "work_link": ""
+            "title": "NLIMDB: Natural Language to Movie Database",
+            "description" : "I designed and developed a web application that takes in 'Natural Language' queries and returns movies that fit the user search, along with their appropriate information. This project was done by myself and 2 others for our university honours project.",
+            "img_link": "nlimdb",
+            "sketch_link": "nlimdb",
+            "work_link": "",
+            "type": "web"
         },
         {
             "id": 4,
-            "title": "Instagram OS - Desktop App Concept",
-            "description" : "I was wondering why Instagram didn't have a mac application, it just seems that they fit hand in hand.",
-            "img_link": "instagram",
-            "more_img_link": "instagram-concept",
-            "sketch_link": "instagram",
-            "work_link": ""
+            "title": "Surface Tension: STEM Building Installation",
+            "description" : "During the summer of 2018, I was asked to help in building an interactive installation for the new STEM building that opened in September 2018. Together with the amazing team, we worked daily on building 'Surface Tension' which is an interactive wall which describes the force of attraction between individual water molecules creating a bond resistant to external pressure. The talented team was comprised of 'Keshav Deeiljur, Sarah Hodgson, Lucy Oulanova, Devansh Shah, Mohamed Abdrabou, Sarmad Nomani, Nikhil Peri, Laura Weller, and Ali Sanaknaki.'",
+            "img_link": "surface-tension",
+            "sketch_link": "",
+            "work_link": "",
+            "type": "hardware"
         },
         {
             "id": 5,
-            "title": "Surface Tension - Interactive Installation For The University STEM Building",
-            "description" : "During the summer of 2018, I was asked to help in building an interactive installation for the new STEM building that opened in September 2018. Together with the amazing team, we worked daily on building 'Surface Tension' which is an interactive wall which describes the force of attraction between individual water molecules creating a bond resistant to external pressure. The talented team was comprised of 'Keshav Deeiljur, Sarah Hodgson, Lucy Oulanova, Devansh Shah, Mohamed Abdrabou, Sarmad Nomani, Nikhil Peri, Laura Weller, and Ali Sanaknaki.'",
-            "img_link": "surface-tension",
-            "more_img_link": "surface-tension-concept",
-            "sketch_link": "",
-            "work_link": ""
-        }
-    ],
-    "about" : [
-        {
-            "id": 1,
-            "url": "myresume.com",
-            "title" : "Click here if you want to hire me",
-            "body": "Jobs make money, and who doesn't like money?",
-            "link": true
+            "title": "Youtube: iOS Redesign",
+            "description" : "What I enjoy most about concept design is taking something you already enjoy using, and thinking 'What would I like seeing when using this?', tried out a new look with some layout changes, specifically removing the tabbar and keeping an open layout.",
+            "img_link": "youtube",
+            "sketch_link": "youtube",
+            "work_link": "",
+            "type": "design"
         },
         {
-            "id": 2,
-            "url": "WhatDoIDo.com",
-            "title" : "Front End Developer & UI Designer",
-            "body": "I like designing and building sleek looking web and mobile applications, a strong backend needs an equally beautiful frontend.",
-            "link": false
+            "id": 6,
+            "title": "Brainfood: Mobile App Concept",
+            "description" : "I helped my friends with their capstone project for University by designing their mobile application for a meal planner / recommender.",
+            "img_link": "brainfood",
+            "sketch_link": "brainfood",
+            "work_link": "",
+            "type": "design"
         },
         {
-            "id": 3,
-            "url": "FrameworksAndLibraries.com",
-            "title" : "React, Bootstrap, Ant Design",
-            "body": "My favourite libraries and frameworks to work with in projects.",
-            "link": false
-        },
-        {
-            "id": 4,
-            "url": "Designs.com",
-            "title" : "Sketch, Figma, InVision",
-            "body": "Creating wireframes and concept work for mobile & web applications.",
-            "link": false
+            "id": 7,
+            "title": "Instagram OS: Desktop App Concept",
+            "description" : "I was wondering why Instagram didn't have a mac application, it just seems that they fit hand in hand.",
+            "img_link": "instagram",
+            "sketch_link": "instapp",
+            "work_link": "",
+            "type": "design"
         }
     ]
 }
