@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Google from '../js/theme/google.jsx';
+import Main from './Main.jsx';
 
 import '../css/App.css';
 
 function App() {
     return (
-      <Google />
+      <Main />
     );
 }
 
