@@ -5,6 +5,7 @@ import ProjectTab from './components/ProjectTab.jsx';
 import ProjectInfo from './components/ProjectInfo.jsx';
 
 import data from '../data/data.json';
+import resume from '../file/aliSanaknaki_resume.pdf';
 
 import '../css/App.css';
 
@@ -69,7 +70,7 @@ class Main extends React.Component {
     renderProjectInfo() {
         
         if(this.state.showProjectInfo) {
-            return <ProjectInfo title={this.state.projectTitle} imageLink={this.state.projectImageLink} description={this.state.projectDescription} sketchLink={this.state.projectSketchLink} workLink={this.state.projectWorkLink} toggleProjectInfo={this.toggleProjectInfo} />
+            return <ProjectInfo title={this.state.projectTitle} imageLink={this.state.projectImageLink} description={this.state.projectDescription} sketchLink={this.state.projectSketchLink} tech={this.state.tech} workLink={this.state.projectWorkLink} toggleProjectInfo={this.toggleProjectInfo} />
         }
     }
 
@@ -80,8 +81,8 @@ class Main extends React.Component {
                     <Col md={6}>
                         <div className="App-header">
                             <h1>Ali Sanaknaki</h1>
-                            <h4>Front-End & iOS</h4>
-                            <h6>Designer & Developer</h6>
+                            <h4>Software ? Designer : Developer;</h4>
+                            <a style={{textDecoration: "none", color: "#454545", fontSize: "1rem"}} href={resume}>Check out my resume!</a>
                         </div>
                     </Col>
 
