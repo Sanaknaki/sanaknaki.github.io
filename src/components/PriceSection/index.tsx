@@ -80,7 +80,7 @@ const PriceSection = () => {
 
                 <div className={"w-full flex gap-2"}>
                     <div className={"w-full rounded-md p-2.5 flex justify-center text-slate-800"}>
-                        <p className={"text-lg font-medium cursor-pointer text-gray-500"} onClick={() => window.open(PDF, "_blank")}>Download resume</p>
+                        <p className={"text-lg font-medium cursor-pointer text-gray-500"} onClick={() => window.open(PDF, "_blank")}>View resume</p>
                     </div>
 
                     <div className={"w-full rounded-md p-2.5 flex justify-center text-white cursor-pointer radiNoWhite"}
