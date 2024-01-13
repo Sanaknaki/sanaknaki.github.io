@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1118314.css",
-    "main.js": "/static/js/main.a29dc5fe.js",
+    "main.css": "/static/css/main.aedcd9e6.css",
+    "main.js": "/static/js/main.769aaa94.js",
     "static/js/787.73862781.chunk.js": "/static/js/787.73862781.chunk.js",
     "static/media/AvenirNext.ttf": "/static/media/AvenirNext.bacb538c1950d3ff8552.ttf",
     "static/media/AvenirNext-Bold.ttf": "/static/media/AvenirNext-Bold.fdd1538b7af567d339ba.ttf",
     "static/media/AvenirNext-Medium.ttf": "/static/media/AvenirNext-Medium.ab87bd2f59ad148312f3.ttf",
     "static/media/AvenirNext-DemiBold.ttf": "/static/media/AvenirNext-DemiBold.ab0853cb330183f97e33.ttf",
     "static/media/AvenirNext-Heavy.ttf": "/static/media/AvenirNext-Heavy.a6b0f5b67664e67ee1a7.ttf",
+    "static/media/aliSanaknaki_2024.pdf": "/static/media/aliSanaknaki_2024.1c49444993d31060f368.pdf",
     "static/media/shoplogix-logo-white.svg": "/static/media/shoplogix-logo-white.db367b19644d38f437f212e5404fb929.svg",
     "static/media/lostandfound-logo-white.svg": "/static/media/lostandfound-logo-white.99293d8a477bed73613c6abd0da9015d.svg",
     "static/media/flywheel-logo-white.svg": "/static/media/flywheel-logo-white.adb69c066690903fa95a1aade3d43e45.svg",
     "static/media/perpetua-logo-white.svg": "/static/media/perpetua-logo-white.2e221b56f86d5360c852d17ab1f3d386.svg",
     "index.html": "/index.html",
-    "main.b1118314.css.map": "/static/css/main.b1118314.css.map",
-    "main.a29dc5fe.js.map": "/static/js/main.a29dc5fe.js.map",
+    "main.aedcd9e6.css.map": "/static/css/main.aedcd9e6.css.map",
+    "main.769aaa94.js.map": "/static/js/main.769aaa94.js.map",
     "787.73862781.chunk.js.map": "/static/js/787.73862781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1118314.css",
-    "static/js/main.a29dc5fe.js"
+    "static/css/main.aedcd9e6.css",
+    "static/js/main.769aaa94.js"
   ]
 }
