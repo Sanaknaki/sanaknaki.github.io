@@ -6,8 +6,6 @@ import PriceSection from "./components/PriceSection";
 const App = () => {
   return (
     <div className={"w-full flex flex-col"}>
-      <Navbar />
-
       <Jumbotron />
 
       <PriceSection />

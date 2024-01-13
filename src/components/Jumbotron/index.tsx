@@ -3,12 +3,14 @@ import Flywheel from "../../styles/assets/flywheel-logo-white.svg";
 import Perpetua from "../../styles/assets/perpetua-logo-white.svg";
 import LostAndFound from "../../styles/assets/lostandfound-logo-white.svg";
 import Shoplogix from "../../styles/assets/shoplogix-logo-white.svg";
+import Navbar from "../Navbar";
 
 
 const Jumbotron = () => {
     return (
-        <div className={"w-full h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
+        <div className={"relative w-full h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
         style={{ background: "linear-gradient(to top right, #2196F3, #9333EA, #A557EE, #FFFFFF)" }}>
+            <Navbar />
             <div className={"w-full flex flex-col gap-1"}>
                 <div className={"-rotate-6 rounded-md w-fit py-0.5 px-2 text-sm font-semibold text-white bg-slate-800"}>
                     Trusted by hundreds of devs, businesses, & startups
@@ -48,8 +50,8 @@ const Jumbotron = () => {
                 </div>
             </div>
 
-            <div className={"absolute bottom-0 w-full flex items-center justify-center py-6"}>
-                <div className={"w-full px-6 lg:px-0 lg:w-2/3 flex justify-between"}>
+            <div className={"sticky sm:absolute bottom-0 w-full flex items-center justify-center py-6"}>
+                <div className={"w-full px-2 lg:px-0 lg:w-2/3 flex justify-between"}>
                     <img src={Perpetua} className={"h-4 md:h-8"} alt={"Perpetua White Logo"} />
                     <img src={Flywheel} className={"h-4 md:h-8"} alt={"Flywheel White Logo"} />
                     <img src={LostAndFound} className={"h-4 md:h-8"} alt={"Lost & Found White Logo"} />

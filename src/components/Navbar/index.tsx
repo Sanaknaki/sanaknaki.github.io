@@ -2,16 +2,16 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <div className={"w-full flex justify-between bg-transparent absolute sm:fixed top-0 py-4 px-6 sm:px-28 text-white"}>
+        <div className={"w-full flex justify-between bg-transparent static sm:absolute sm:top-0 py-4 px-6 sm:px-28 text-white"}>
 
             <div className={"flex flex-row items-center gap-2"}>
                 <p className={"text-xl font-semibold"}>
                     Ali Sanaknaki
                 </p>
 
-                <div className={"h-full w-[1px] bg-white"} />
+                <div className={"h-full w-[1px] bg-white hidden sm:block"} />
 
-                <p className={"text-sm font-medium"}>
+                <p className={"text-sm font-medium hidden sm:block"}>
                     Your next developer
                 </p>
             </div>
