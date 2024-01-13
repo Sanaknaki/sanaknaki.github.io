@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.350d6909.css",
-    "main.js": "/static/js/main.ede654fd.js",
+    "main.css": "/static/css/main.8ec1d97c.css",
+    "main.js": "/static/js/main.a294ca18.js",
     "static/js/787.73862781.chunk.js": "/static/js/787.73862781.chunk.js",
     "static/media/AvenirNext.ttf": "/static/media/AvenirNext.bacb538c1950d3ff8552.ttf",
     "static/media/AvenirNext-Bold.ttf": "/static/media/AvenirNext-Bold.fdd1538b7af567d339ba.ttf",
@@ -13,12 +13,12 @@
     "static/media/flywheel-logo-white.svg": "/static/media/flywheel-logo-white.adb69c066690903fa95a1aade3d43e45.svg",
     "static/media/perpetua-logo-white.svg": "/static/media/perpetua-logo-white.2e221b56f86d5360c852d17ab1f3d386.svg",
     "index.html": "/index.html",
-    "main.350d6909.css.map": "/static/css/main.350d6909.css.map",
-    "main.ede654fd.js.map": "/static/js/main.ede654fd.js.map",
+    "main.8ec1d97c.css.map": "/static/css/main.8ec1d97c.css.map",
+    "main.a294ca18.js.map": "/static/js/main.a294ca18.js.map",
     "787.73862781.chunk.js.map": "/static/js/787.73862781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.350d6909.css",
-    "static/js/main.ede654fd.js"
+    "static/css/main.8ec1d97c.css",
+    "static/js/main.a294ca18.js"
   ]
 }
