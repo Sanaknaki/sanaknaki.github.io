@@ -6,7 +6,7 @@ const Footer = () => (
         <p className={"text-base self-center"}>Made with ⌨️ by Ali Sanaknaki</p>
 
 
-        <div className={"flex flex-col gap-2"}>
+        <div className={"flex flex-col gap-2 w-fit"}>
             <p className={"text-base font-semibold"}>
                 Contact Me
             </p>
