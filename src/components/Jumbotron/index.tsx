@@ -4,14 +4,12 @@ import Perpetua from "../../styles/assets/perpetua-logo-white.svg";
 import LostAndFound from "../../styles/assets/lostandfound-logo-white.svg";
 import Shoplogix from "../../styles/assets/shoplogix-logo-white.svg";
 
-
 const Jumbotron = () => {
     return (
-        <div className={"relative w-full h-[600px] sm:h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
-        style={{ background: "linear-gradient(to top right, #2196F3, #9333EA, #A557EE, #FFFFFF)" }}>
+        <div className={"relative w-full h-[600px] sm:h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28 radi"}>
             <div className={"w-full flex flex-col gap-1"}>
                 <div className={"-rotate-6 rounded-md w-fit py-0.5 px-2 text-sm font-semibold text-white bg-slate-800"}>
-                    Trusted by hundreds of devs, businesses, & startups
+                    Trusted by devs, businesses, & startups
                 </div>
                 
                 <p className={"text-white text-xl-3 sm:text-xxl font-black"}>
@@ -29,14 +27,14 @@ const Jumbotron = () => {
                 <div className={"flex gap-3 text-white items-center"}>
                     <LuBadgeCheck size={32} />
                     <p className={"font-semibold"}>
-                        Reviewed 500+ PRs
+                        Reviewed hundreds of PRs
                     </p>
                 </div>
 
                 <div className={"flex gap-3 text-white items-center"}>
                     <LuBrain size={32} />
                     <p className={"font-semibold"}>
-                        Learned and expanded on knowledge
+                        Built products with cross-functional teams
                     </p>
                 </div>
 

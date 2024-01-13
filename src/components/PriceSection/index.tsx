@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { LuCode2, LuSparkles, LuPackage, LuBriefcase } from "react-icons/lu";
-
+import PDF from "../../files/aliSanaknaki_2024.pdf";
 
 const PriceSection = () => {
+    const [isHoveringLost, setIsHoveringLost] = useState<boolean>(false);
+    const [isHoveringSurf, setIsHoveringSurf] = useState<boolean>(false);
+
     return (
         <div className={"text-slate-800 w-full flex flex-col gap-4 items-center justify-center p-6 sm:flex-row sm:gap-28 sm:p-28"}>
 
@@ -35,16 +39,16 @@ const PriceSection = () => {
                 <div className={"flex flex-col gap-3"}>
                     <p className={"text-lg font-bold"}>Projects</p>
 
-                    <div className={"flex w-full gap-4 items-center"}>
-                        <div className={"p-2 text-white aspect-square rounded-full bg-slate-800"}>
+                    <div className={"flex w-full gap-4 items-center cursor-pointer"} onMouseEnter={() => setIsHoveringLost(true)} onMouseLeave={() => setIsHoveringLost(false)} onClick={() => window.open("https://www.shoplostfound.com", "_blank")}>
+                        <div className={`p-2 text-white aspect-square rounded-full ${isHoveringLost ? "radiNoWhite" : "bg-slate-800"}`}>
                             <LuSparkles size={16} />
                         </div>
 
                         <p className={"text-base"}><span className={"font-semibold"}>Lost & Found</span> — Website re-design</p>
                     </div>
 
-                    <div className={"flex w-full gap-4 items-center"}>
-                        <div className={"p-2 text-white aspect-square rounded-full bg-slate-800"}>
+                    <div className={"flex w-full gap-4 items-center cursor-pointer"} onMouseEnter={() => setIsHoveringSurf(true)} onMouseLeave={() => setIsHoveringSurf(false)} onClick={() => window.open("https://www.uottawa.ca/tabaret/en/content/interactive-student-art-adds-creative-spark-stem", "_blank")}>
+                        <div className={`p-2 text-white aspect-square rounded-full bg-slate-800 ${isHoveringSurf ? "radiNoWhite" : "bg-slate-800"}`}>
                             <LuSparkles size={16} />
                         </div>
 
@@ -73,19 +77,25 @@ const PriceSection = () => {
                     </div>
                 </div>
 
-                <div className={"w-full rounded-md p-2.5 flex justify-center text-white cursor-pointer"}
-                style={{ background: "linear-gradient(to top right, #2196F3, #9333EA)" }}
-                onClick={() => {
-                    const email = "sanaknaki.ali@gmail.com";
-                    const subject = "We're Interested!";
-                    const body = "Ali,";
-    
-                    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
-                    // Open the mailto link in a new tab or window
-                    window.location.href = mailtoLink;
-                }}>
-                    <p className={"text-lg font-medium"}>Get in contact</p>
+
+                <div className={"w-full flex gap-2"}>
+                    <div className={"w-full rounded-md p-2.5 flex justify-center text-slate-800"}>
+                        <p className={"text-lg font-medium cursor-pointer text-gray-500"} onClick={() => window.open(PDF, "_blank")}>Download resume</p>
+                    </div>
+
+                    <div className={"w-full rounded-md p-2.5 flex justify-center text-white cursor-pointer radiNoWhite"}
+                    onClick={() => {
+                        const email = "sanaknaki.ali@gmail.com";
+                        const subject = "We're Interested!";
+                        const body = "Ali,";
+        
+                        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        
+                        // Open the mailto link in a new tab or window
+                        window.location.href = mailtoLink;
+                    }}>
+                        <p className={"text-lg font-medium"}>Get in contact</p>
+                    </div>
                 </div>
             </div>
         </div>
