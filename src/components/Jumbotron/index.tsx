@@ -3,12 +3,11 @@ import Flywheel from "../../styles/assets/flywheel-logo-white.svg";
 import Perpetua from "../../styles/assets/perpetua-logo-white.svg";
 import LostAndFound from "../../styles/assets/lostandfound-logo-white.svg";
 import Shoplogix from "../../styles/assets/shoplogix-logo-white.svg";
-import Navbar from "../Navbar";
 
 
 const Jumbotron = () => {
     return (
-        <div className={"w-full h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
+        <div className={"relative w-full h-[600px] sm:h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
         style={{ background: "linear-gradient(to top right, #2196F3, #9333EA, #A557EE, #FFFFFF)" }}>
             <div className={"w-full flex flex-col gap-1"}>
                 <div className={"-rotate-6 rounded-md w-fit py-0.5 px-2 text-sm font-semibold text-white bg-slate-800"}>

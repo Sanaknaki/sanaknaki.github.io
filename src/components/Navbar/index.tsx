@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <div className={"w-full flex justify-between absolute top-0 py-4 px-6 sm:px-28 text-white"}>
+        <div className={" z-10 w-full flex justify-between absolute top-0 py-4 px-6 sm:px-28 text-white"}>
 
             <div className={"flex flex-row items-center gap-2"}>
                 <p className={"text-xl font-semibold"}>
