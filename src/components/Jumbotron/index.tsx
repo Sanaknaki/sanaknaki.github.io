@@ -8,15 +8,14 @@ import Navbar from "../Navbar";
 
 const Jumbotron = () => {
     return (
-        <div className={"relative w-full h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
+        <div className={"w-full h-screen flex flex-col gap-4 items-center justify-center px-6 sm:flex-row sm:gap-2 sm:px-28"}
         style={{ background: "linear-gradient(to top right, #2196F3, #9333EA, #A557EE, #FFFFFF)" }}>
-            <Navbar />
             <div className={"w-full flex flex-col gap-1"}>
                 <div className={"-rotate-6 rounded-md w-fit py-0.5 px-2 text-sm font-semibold text-white bg-slate-800"}>
                     Trusted by hundreds of devs, businesses, & startups
                 </div>
                 
-                <p className={"text-white text-xxl font-black"}>
+                <p className={"text-white text-xl-3 sm:text-xxl font-black"}>
                     Experienced Engineer leveraging code and design
                 </p>
             </div>
@@ -50,7 +49,7 @@ const Jumbotron = () => {
                 </div>
             </div>
 
-            <div className={"sticky sm:absolute bottom-0 w-full flex items-center justify-center py-6"}>
+            <div className={"absolute bottom-0 w-full flex items-center justify-center py-6"}>
                 <div className={"w-full px-2 lg:px-0 lg:w-2/3 flex justify-between"}>
                     <img src={Perpetua} className={"h-4 md:h-8"} alt={"Perpetua White Logo"} />
                     <img src={Flywheel} className={"h-4 md:h-8"} alt={"Flywheel White Logo"} />
