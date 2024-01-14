@@ -47,10 +47,10 @@ const Jumbotron = () => {
             </div>
 
             <div className={"absolute bottom-0 w-full flex items-center justify-center py-6"}>
-                <div className={"w-full px-2 lg:px-0 lg:w-2/3 flex justify-between"}>
+                <div className={"w-full px-2 lg:px-0 lg:w-2/3 flex justify-between items-center"}>
                     <img src={Perpetua} className={"h-4 md:h-8"} alt={"Perpetua White Logo"} />
                     <img src={Flywheel} className={"h-4 md:h-8"} alt={"Flywheel White Logo"} />
-                    <img src={LostAndFound} className={"h-4 md:h-8"} alt={"Lost & Found White Logo"} />
+                    <img src={LostAndFound} className={"h-4 md:h-7"} alt={"Lost & Found White Logo"} />
                     <img src={Shoplogix} className={"h-4 md:h-8"} alt={"Shoplogix White Logo"} />
                 </div>
             </div>

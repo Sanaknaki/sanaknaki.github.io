@@ -23,7 +23,7 @@ const PriceSection = () => {
                             <LuBriefcase size={16} />
                         </div>
 
-                        <p className={"text-base"}><span className={"font-semibold"}>Perpetua (04/21 - Present)</span> — Senior Software Engineer</p>
+                        <p className={"text-base"}><span className={"font-semibold"}>Flywheel / Perpetua (Present)</span> — Senior Software Engineer</p>
                     </div>
 
                     <div className={"flex w-full gap-4 items-center"}>
