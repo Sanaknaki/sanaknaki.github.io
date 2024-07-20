@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.db23f0d0.css",
-    "main.js": "/static/js/main.a51f971f.js",
+    "main.css": "/static/css/main.d9a61b6a.css",
+    "main.js": "/static/js/main.2398c3f5.js",
     "static/js/787.73862781.chunk.js": "/static/js/787.73862781.chunk.js",
     "static/media/AvenirNext.ttf": "/static/media/AvenirNext.bacb538c1950d3ff8552.ttf",
     "static/media/AvenirNext-Bold.ttf": "/static/media/AvenirNext-Bold.fdd1538b7af567d339ba.ttf",
@@ -10,16 +10,24 @@
     "static/media/AvenirNext-Heavy.ttf": "/static/media/AvenirNext-Heavy.a6b0f5b67664e67ee1a7.ttf",
     "static/media/aliSanaknaki_2024.pdf": "/static/media/aliSanaknaki_2024.e7df67e76cc75ee6ea39.pdf",
     "static/media/shoplogix-logo-white.svg": "/static/media/shoplogix-logo-white.db367b19644d38f437f212e5404fb929.svg",
+    "static/media/stackadapt-logo-white.svg": "/static/media/stackadapt-logo-white.e52428f423f99da9f01b01d4c8fe9d17.svg",
+    "static/media/shoplogix-icon-white.svg": "/static/media/shoplogix-icon-white.d22df6487112fd1df3fe2367f28321d5.svg",
     "static/media/lostandfound-logo-white.svg": "/static/media/lostandfound-logo-white.99293d8a477bed73613c6abd0da9015d.svg",
     "static/media/flywheel-logo-white.svg": "/static/media/flywheel-logo-white.adb69c066690903fa95a1aade3d43e45.svg",
+    "static/media/stan-logo-white.svg": "/static/media/stan-logo-white.4c289215e0469879728f9a2bbe6927fe.svg",
     "static/media/perpetua-logo-white.svg": "/static/media/perpetua-logo-white.2e221b56f86d5360c852d17ab1f3d386.svg",
+    "static/media/flywheel-icon-white.svg": "/static/media/flywheel-icon-white.b9e687aecafb08f2f7a725744f9205a4.svg",
+    "static/media/stan-icon-white.svg": "/static/media/stan-icon-white.997ba169e89519f5821fb6ae9ed42ea3.svg",
+    "static/media/lostandfound-icon-white.svg": "/static/media/lostandfound-icon-white.edced4015673a11cec09cf8967f97821.svg",
+    "static/media/perpetua-icon-white.svg": "/static/media/perpetua-icon-white.7ec5daa710cdd6f880524f16e4c39749.svg",
+    "static/media/stackadapt-icon-white.svg": "/static/media/stackadapt-icon-white.6ef7beffcd2b2fd2b756022a8f56f665.svg",
     "index.html": "/index.html",
-    "main.db23f0d0.css.map": "/static/css/main.db23f0d0.css.map",
-    "main.a51f971f.js.map": "/static/js/main.a51f971f.js.map",
+    "main.d9a61b6a.css.map": "/static/css/main.d9a61b6a.css.map",
+    "main.2398c3f5.js.map": "/static/js/main.2398c3f5.js.map",
     "787.73862781.chunk.js.map": "/static/js/787.73862781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db23f0d0.css",
-    "static/js/main.a51f971f.js"
+    "static/css/main.d9a61b6a.css",
+    "static/js/main.2398c3f5.js"
   ]
 }
