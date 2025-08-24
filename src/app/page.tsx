@@ -1,12 +1,22 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 const Home = () => {
   const [hoveringIcon, setHoveringIcon] = useState<string>("");
   const [isMobile, setIsMobile] = useState<boolean>(false);
+  const [lastTappedIcon, setLastTappedIcon] = useState<string>("");
 
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
+    const checkMobile = () => {
+      const isMobileDevice =
+        window.innerWidth < 768 || "ontouchstart" in window;
+      setIsMobile(isMobileDevice);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
   return (
@@ -26,14 +36,20 @@ const Home = () => {
           }
           onClick={() => {
             if (isMobile) {
-              if (hoveringIcon && hoveringIcon.includes("Everyday Works")) {
+              if (lastTappedIcon === "everydayworks") {
+                // Second tap - open link
                 window.open("https://everyday-works.com/", "_blank");
+                setLastTappedIcon("");
                 setHoveringIcon("");
+              } else {
+                // First tap - show text and mark as tapped
+                setLastTappedIcon("everydayworks");
+                setHoveringIcon(
+                  "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Everyday Works</span>, Design Portfolio."
+                );
               }
             } else {
-              setHoveringIcon(
-                "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Everyday Works</span>, Design Portfolio."
-              );
+              window.open("https://everyday-works.com/", "_blank");
             }
           }}
           onMouseLeave={() => setHoveringIcon("")}
@@ -65,16 +81,25 @@ const Home = () => {
           }
           onClick={() => {
             if (isMobile) {
-              if (hoveringIcon && hoveringIcon.includes("Link")) {
+              if (lastTappedIcon === "linkedin") {
+                // Second tap - open link
                 window.open(
                   "https://www.linkedin.com/in/alisanaknaki/",
                   "_blank"
                 );
+                setLastTappedIcon("");
                 setHoveringIcon("");
+              } else {
+                // First tap - show text and mark as tapped
+                setLastTappedIcon("linkedin");
+                setHoveringIcon(
+                  "Let's <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Link</span>edIn."
+                );
               }
             } else {
-              setHoveringIcon(
-                "Let's <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Link</span>edIn."
+              window.open(
+                "https://www.linkedin.com/in/alisanaknaki/",
+                "_blank"
               );
             }
           }}
@@ -93,14 +118,20 @@ const Home = () => {
           }
           onClick={() => {
             if (isMobile) {
-              if (hoveringIcon && hoveringIcon.includes("Pushing")) {
+              if (lastTappedIcon === "github") {
+                // Second tap - open link
                 window.open("https://github.com/sanaknaki", "_blank");
+                setLastTappedIcon("");
                 setHoveringIcon("");
+              } else {
+                // First tap - show text and mark as tapped
+                setLastTappedIcon("github");
+                setHoveringIcon(
+                  "Pushing <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>P</span>Rs."
+                );
               }
             } else {
-              setHoveringIcon(
-                "Pushing <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>P</span>Rs."
-              );
+              window.open("https://github.com/sanaknaki", "_blank");
             }
           }}
           onMouseLeave={() => setHoveringIcon("")}
@@ -118,11 +149,19 @@ const Home = () => {
           }
           onClick={() => {
             if (isMobile) {
-              if (hoveringIcon && hoveringIcon.includes("Hit my")) {
+              if (lastTappedIcon === "inbox") {
+                // Second tap - open email
                 const link = document.createElement("a");
                 link.href = "mailto:sanaknaki.ali@gmail.com";
                 link.click();
+                setLastTappedIcon("");
                 setHoveringIcon("");
+              } else {
+                // First tap - show text and mark as tapped
+                setLastTappedIcon("inbox");
+                setHoveringIcon(
+                  "Hit my <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>line.</span>"
+                );
               }
             } else {
               const link = document.createElement("a");
