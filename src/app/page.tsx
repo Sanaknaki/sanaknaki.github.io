@@ -45,10 +45,12 @@ const Home = () => {
               : ""
           }`}
           onMouseEnter={() => {
-            setHoveringIcon(
-              "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Everyday Works</span>, Design Portfolio."
-            );
-            setLastTappedIcon("everydayworks");
+            if (!isMobile) {
+              setHoveringIcon(
+                "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Everyday Works</span>, Design Portfolio."
+              );
+              setLastTappedIcon("everydayworks");
+            }
           }}
           onClick={() => {
             if (isMobile) {
@@ -84,10 +86,12 @@ const Home = () => {
               : ""
           }`}
           onMouseEnter={() => {
-            setHoveringIcon(
-              "Let's <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Link</span>edIn."
-            );
-            setLastTappedIcon("linkedin");
+            if (!isMobile) {
+              setHoveringIcon(
+                "Let's <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Link</span>edIn."
+              );
+              setLastTappedIcon("linkedin");
+            }
           }}
           onClick={() => {
             if (isMobile) {
@@ -129,10 +133,12 @@ const Home = () => {
               : ""
           }`}
           onMouseEnter={() => {
-            setHoveringIcon(
-              "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Pushing P</span>Rs."
-            );
-            setLastTappedIcon("github");
+            if (!isMobile) {
+              setHoveringIcon(
+                "<span style='background-color: #1E42F6; color: white; padding: 0 4px;'>Pushing P</span>Rs."
+              );
+              setLastTappedIcon("github");
+            }
           }}
           onClick={() => {
             if (isMobile) {
@@ -168,10 +174,12 @@ const Home = () => {
               : ""
           }`}
           onMouseEnter={() => {
-            setHoveringIcon(
-              "Hit my <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>line.</span>"
-            );
-            setLastTappedIcon("inbox");
+            if (!isMobile) {
+              setHoveringIcon(
+                "Hit my <span style='background-color: #1E42F6; color: white; padding: 0 4px;'>line.</span>"
+              );
+              setLastTappedIcon("inbox");
+            }
           }}
           onClick={() => {
             if (isMobile) {
